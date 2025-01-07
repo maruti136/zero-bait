@@ -1,0 +1,16 @@
+{
+  "name": "p-zerobait",
+  "version": "1.0.0",
+  "description": "A 2 player dice based game",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Mihir Pratap Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "core-js": "^3.39.0",
+    "parcel": "^2.13.3",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
