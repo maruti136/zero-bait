@@ -171,13 +171,13 @@ main {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
   border-radius: 9px;
   cursor: pointer; /* Indicates the element is clickable */
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* transition: transform 0.2s ease, box-shadow 0.2s ease; */
 }
 
-.dice:active {
-  transform: translateX(-50%) scale(1.1); /* Slightly enlarges the element */
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.4); /* Increases shadow intensity */
-}
+/* .dice:active {
+  transform: translateX(-50%) scale(1.1); 
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.4);
+} */
 
 .player--winner {
   background-color: #2f2f2f;
